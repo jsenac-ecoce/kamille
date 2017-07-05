@@ -1,0 +1,78 @@
+{
+	"custos": [{
+		"ID": "FRA00047710",
+		"Distance" : "(06 km)",
+		"Name": "ROBERTET SA",
+		"Account": "COMPANY/ROBERTET",
+		"KAM": "Agnes  Raussin",
+		"Size": "500 - 999 PERS.",
+		"LastVisitDate": "2017-02-25",
+		"ConractEndDate": "2018-02-05",
+		"Alerts": {
+			"Turnover_N": 14.102,
+			"Turnover_N_1": 27.656,
+			"Evol": -0.49,
+			"Claims": 0.2
+		},
+		"Contact": {
+			"Name": "Adrien Suppa",
+			"Email": "ADRIEN.SUPPA@ROBERTET.COM",
+			"Phone": "0493403366"
+		},
+		"Address": {
+			"Postal Code": "06130",
+			"City": "GRASSE",
+			"Street": "37 AVENUE SIDI BRAHIM"
+		}
+	}, {
+		"ID": "FRA00002583",
+		"Distance" : "(17 km)",
+		"Name": "LABORATOIRE VIRBAC SA",
+		"Account": "COMPANY/ROBERTET",
+		"KAM": "Agnes  Raussin",
+		"Size": "1000 - + PERS.",
+		"LastVisitDate": "2016-09-15",
+		"ConractEndDate": "2017-12-06",
+		"Alerts": {
+			"Turnover_N": 18.284,
+			"Turnover_N_1": 22.770,
+			"Evol": -0.19,
+			"Claims": 0.13
+		},
+		"Contact": {
+			"Name": "Corrine Veysseyre",
+			"Email": "corinne.veysseyre@virbac.com",
+			"Phone": "0492087100"
+		},
+		"Address": {
+			"Postal Code": "06511",
+			"City": "CARROS",
+			"Street": "1 ERE AVENUE 2065 M LID"
+		}
+	}, {
+		"ID": "FRA00361239",
+		"Distance" : "(23 km)",
+		"Name": "VISHAY SA",
+		"Account": "COMPANY/VISHAY",
+		"KAM": "Agnes  Raussin",
+		"Size": "1000 - + PERS.",
+		"LastVisitDate": "2016-09-15",
+		"ConractEndDate": "2018-08-15",
+		"Alerts": {
+			"Turnover_N": 33.181,
+			"Turnover_N_1": 29.798,
+			"Evol": 0.11,
+			"Claims": 0.14
+		},
+		"Contact": {
+			"Name": "Sophie Houvion",
+			"Email": "sophie.houvion@vishay.com",
+			"Phone": "0493372842"
+		},
+		"Address": {
+			"Postal Code": "06003",
+			"City": "NICE CEDEX",
+			"Street": "199 BOULEVARD DE LA MADELEINE"
+		}
+	}]
+}

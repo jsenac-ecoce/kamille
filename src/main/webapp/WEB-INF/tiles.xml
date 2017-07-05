@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+
+<tiles-definitions>
+
+	<definition name="base" template="/WEB-INF/layouts/default.jsp">
+		<put-attribute name="title" value="KAMille" />
+		<put-attribute name="header" value="/WEB-INF/tiles/header.jsp" />
+		<put-attribute name="menu" value="/WEB-INF/tiles/menu.jsp" />
+		<put-attribute name="content" value="" />
+		<put-attribute name="scripts" value="/WEB-INF/tiles/scripts/home_script.jsp" />
+		<put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp" />
+	</definition>
+	
+	<definition name="homepage" extends="base">
+		<put-attribute name="header" value="" />
+		<put-attribute name="content" value="/WEB-INF/tiles/home.jsp" />
+	</definition>
+	
+	<definition name="idpage" extends="base">
+		<put-attribute name="header" value="" />
+		<put-attribute name="content" value="/WEB-INF/tiles/login.jsp" />
+	</definition>
+	
+	<definition name="parcours" extends="base">
+		<put-attribute name="content" value="/WEB-INF/tiles/parcours.jsp" />
+	</definition>
+	
+	<definition name="depart" extends="base">
+		<put-attribute name="content" value="/WEB-INF/tiles/depart.jsp" />
+	</definition>
+	
+	<definition name="customers" extends="base">
+		<put-attribute name="header" value="/WEB-INF/tiles/headercustomer.jsp" />
+		<put-attribute name="content" value="/WEB-INF/tiles/customers.jsp" />
+	</definition>
+	
+	<definition name="map" extends="base">
+		<put-attribute name="header" value="/WEB-INF/tiles/headermap.jsp" />
+		<put-attribute name="content" value="/WEB-INF/tiles/map.jsp" />
+	</definition>
+	
+	<definition name="map2" extends="base">
+		<put-attribute name="header" value="/WEB-INF/tiles/headermap.jsp" />
+		<put-attribute name="content" value="/WEB-INF/tiles/map2.jsp" />
+	</definition>
+	
+	<definition name="mapdetail" extends="base">
+		<put-attribute name="header" value="/WEB-INF/tiles/headerpoubelle.jsp" />
+		<put-attribute name="content" value="/WEB-INF/tiles/mapdetail.jsp" />
+	</definition>
+	
+	<definition name="mapdetail2" extends="base">
+		<put-attribute name="header" value="/WEB-INF/tiles/headerpoubelle.jsp" />
+		<put-attribute name="content" value="/WEB-INF/tiles/mapdetail2.jsp" />
+	</definition>
+	
+	<definition name="paths" extends="base">
+		<put-attribute name="header" value="/WEB-INF/tiles/headerpaths.jsp" />
+		<put-attribute name="content" value="/WEB-INF/tiles/paths.jsp" />
+	</definition>
+	
+	<definition name="poidetail" extends="base">
+		<put-attribute name="header" value="" />
+		<put-attribute name="content" value="/WEB-INF/tiles/poidetail.jsp" />
+	</definition>
+
+</tiles-definitions>
