@@ -2,7 +2,7 @@
 	pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <div id="parcours">
-	<h2>O&ugrave; voulez-vous aller ?</h2>
+	<h2>Lieu de d&eacute;part</h2>
 	<input type="text" class="lieu" size=16 value="" placeHolder="Adresse, Ville, CP..."
 		onkeyup="javascript:fakeList(this.value)" onBlur="javascript:fakeListHide();"/>
 	<div id="departFakelist" style="display:none;">

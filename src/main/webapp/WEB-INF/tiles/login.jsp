@@ -6,10 +6,10 @@
 	<div id="login">
 		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E-mail <input type="text" placeHolder="identifiant"/>
 	</div>
-	</br>
+	<br/>
 	<div id="password">
 		Mot de passe <input type="password" placeHolder="mot de passe"/>
 	</div>
-	</br>
+	<br/>
 	<button class="submit" onclick="javascript:window.location.href='<c:url value="/parcours"/>'" style="cursor:pointer;">CONNEXION</button>
 </div>
